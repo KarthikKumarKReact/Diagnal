@@ -42,7 +42,7 @@ const Header = ({ title, onSearch }) => {
                 <>
                     <View style={styles.titleWrapper}>
                         <TouchableOpacity onPress={() => { }}>
-                            <Image style={styles.icon} source={images.back} />
+                            <Image style={styles.icon} source={Number(images.back)} />
                         </TouchableOpacity>
                         <Text style={styles.title}>
                             {title}

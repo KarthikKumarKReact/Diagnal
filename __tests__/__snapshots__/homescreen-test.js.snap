@@ -1,0 +1,196 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`Connection UI Snapshot 1`] = `
+<View
+  style={
+    {
+      "backgroundColor": "#000000",
+      "flex": 1,
+    }
+  }
+>
+  <View
+    style={
+      {
+        "alignItems": "center",
+        "flexDirection": "row",
+        "height": 50,
+        "justifyContent": "space-between",
+        "marginHorizontal": 10,
+      }
+    }
+  >
+    <View
+      style={
+        {
+          "alignItems": "center",
+          "flexDirection": "row",
+        }
+      }
+    >
+      <View
+        accessibilityState={
+          {
+            "busy": undefined,
+            "checked": undefined,
+            "disabled": undefined,
+            "expanded": undefined,
+            "selected": undefined,
+          }
+        }
+        accessibilityValue={
+          {
+            "max": undefined,
+            "min": undefined,
+            "now": undefined,
+            "text": undefined,
+          }
+        }
+        accessible={true}
+        collapsable={false}
+        focusable={true}
+        onClick={[Function]}
+        onResponderGrant={[Function]}
+        onResponderMove={[Function]}
+        onResponderRelease={[Function]}
+        onResponderTerminate={[Function]}
+        onResponderTerminationRequest={[Function]}
+        onStartShouldSetResponder={[Function]}
+        style={
+          {
+            "opacity": 1,
+          }
+        }
+      >
+        <Image
+          source={NaN}
+          style={
+            {
+              "height": 20,
+              "tintColor": "#ffffff",
+              "width": 20,
+            }
+          }
+        />
+      </View>
+      <Text
+        style={
+          {
+            "color": "#ffffff99",
+            "fontSize": 18,
+            "marginLeft": 20,
+          }
+        }
+      >
+        Romantic Comedy
+      </Text>
+    </View>
+    <View
+      accessibilityState={
+        {
+          "busy": undefined,
+          "checked": undefined,
+          "disabled": undefined,
+          "expanded": undefined,
+          "selected": undefined,
+        }
+      }
+      accessibilityValue={
+        {
+          "max": undefined,
+          "min": undefined,
+          "now": undefined,
+          "text": undefined,
+        }
+      }
+      accessible={true}
+      collapsable={false}
+      focusable={true}
+      onClick={[Function]}
+      onResponderGrant={[Function]}
+      onResponderMove={[Function]}
+      onResponderRelease={[Function]}
+      onResponderTerminate={[Function]}
+      onResponderTerminationRequest={[Function]}
+      onStartShouldSetResponder={[Function]}
+      style={
+        {
+          "marginRight": 5,
+          "opacity": 1,
+        }
+      }
+    >
+      <Image
+        source="test-file-stub"
+        style={
+          {
+            "height": 20,
+            "tintColor": "#ffffff",
+            "width": 20,
+          }
+        }
+      />
+    </View>
+  </View>
+  <RCTScrollView
+    ListEmptyComponent={<NothingFound />}
+    contentContainerStyle={
+      {
+        "justifyContent": "space-between",
+      }
+    }
+    data={[]}
+    getItem={[Function]}
+    getItemCount={[Function]}
+    keyExtractor={[Function]}
+    onContentSizeChange={[Function]}
+    onEndReached={[Function]}
+    onEndReachedThreshold={0.5}
+    onLayout={[Function]}
+    onMomentumScrollBegin={[Function]}
+    onMomentumScrollEnd={[Function]}
+    onScroll={[Function]}
+    onScrollBeginDrag={[Function]}
+    onScrollEndDrag={[Function]}
+    removeClippedSubviews={false}
+    renderItem={[Function]}
+    scrollEventThrottle={50}
+    showsVerticalScrollIndicator={false}
+    stickyHeaderIndices={[]}
+    style={
+      {
+        "backgroundColor": "#050505",
+        "marginHorizontal": 6,
+      }
+    }
+    viewabilityConfigCallbackPairs={[]}
+  >
+    <View>
+      <View
+        style={
+          {
+            "alignItems": "center",
+            "marginTop": 70,
+          }
+        }
+      >
+        <Text
+          style={
+            [
+              {
+                "color": "#ffffff",
+              },
+              {
+                "fontSize": 24,
+                "fontWeight": "bold",
+              },
+            ]
+          }
+        >
+          No Results Found
+        </Text>
+      </View>
+    </View>
+  </RCTScrollView>
+</View>
+`;

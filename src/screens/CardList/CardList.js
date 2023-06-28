@@ -12,7 +12,6 @@ const CardList = ({ title, movies, getList }) => {
         return movies.filter(({ name }) =>
             name.toLowerCase().includes(searchText.toLowerCase()))
     }, [movies, searchText])
-
     return (
         <View style={styles.container}>
             <Header

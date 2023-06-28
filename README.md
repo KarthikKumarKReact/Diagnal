@@ -32,3 +32,10 @@ Before taking build we should configure something in Xcode and need to create th
 
 
 
+# Below jest test cases are implemented which are passed itself  
+    * Snapshot 
+    * renders without error
+     
+To check the home screen please give the below command.
+
+npm run test homescreen-test --coverage
